@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cambo&family=Crete+Round:ital@1&family=Dancing+Script:wght@600&family=Outfit:wght@300&family=Playfair+Display:wght@500&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,500&family=Vollkorn:ital@1&display=swap');
+
+*{
+    font-family: 'Roboto Flex', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*********************Navbar************************/
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: greenyellow;
+    padding: 3px 40px;
+    z-index: 100;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+#navbarSupportedContent{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: georgia;
+}
+
+#navbarSupportedContent li{
+    padding:0px 10px;
+}
+
+#navbarSupportedContent li:hover{
+    border-bottom: 3px solid red;
+}
+
+#navbarSupportedContent a{
+    color: black;
+}
+
+#navbarSupportedContent a:hover{
+    color: blue;
+}
+
+.navbar-toggler-icon{
+    background-color: black;
+}
+
+/**********************Carousel***************************/
+
+.carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.carousel-caption h1{
+    font-size: 130px;
+    margin-top: 90px;
+    color: white;
+    }
+
+    /************************About Us***************************/
+
+    #about{
+        background-color: rgb(179, 247, 247);
+    }
+
+
+    #about img{
+       margin-top: 100px;
+    }
+
+
+    #about h1{
+       
+        text-align: center;
+        color: red;
+    }
+
+    #about p{
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    /******************Service******************/
+
+    #service{
+        background-color: rgb(191, 136, 241);
+    }
+
+    #service img{
+        margin-top: 100px;
+        height: 200px;
+        width: 200px;
+        align-items: center;
+    }
+
+    #service h1{
+        margin-top: 30px;
+        font-size: 30px;
+        letter-spacing: 1px;
+    font-weight: bold;  
+  }
+
+  #service p{
+    text-align: justify;
+    font-family: 'Times New Roman';
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+
+  #service h2{
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: red;
+  }
+
+/*******************Product***********************/
+
+  #product img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .card{
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border: none;
+  }
+
+  .card h5{
+    text-align: center;
+    color: red;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .card p{
+    text-align: center;
+    color: green;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  /**********************Contact************************/
+
+  #contact{
+    margin-top: 100px;
+    background-color: rgb(149, 243, 243);
+  }
+
+  .container{
+    text-align: center;
+  }
+
+  #contact h1{
+    text-align: center;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact input{
+    margin: 10px 0px;
+  }
+
+  #contact textarea{
+    margin: 10px 0px;
+  }
