@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/todo.webp);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#head{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.container{
+    width: 30px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background:greenyellow;
+    border-radius: 10px;
+    }
+
+    #newtask{
+        position: relative;
+        padding: 30px 20px;
+    }
+
+    #newtask input{
+        width: 75%;
+        height: 45px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid rgb(155, 253, 7);
+        padding: 12px;
+        color: black;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    #newtask input:focus{
+        outline: none;
+        border-color: rgb(149, 247, 2);
+    }
+
+    #add{
+        position: relative;
+        float: right;
+        width: 20%;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: rgb(247, 34, 34);
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+
+      #items{
+        background-color: rgb(153, 120, 241);
+        padding: 30px 20px;
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+        position: relative;
+        }
+
+        .task{
+            background-color: aliceblue;   
+            height: 50px;
+            margin-bottom: 8px;
+            padding: 5px 10px;
+            display: flex;
+            border-radius: 5px;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid blue; 
+            cursor: pointer;  
+          }
+
+          .task span{
+            font-size: 15px;
+            font-weight: bold;
+          }
+
+          .task button{
+            background-color: aqua;
+            height: 100%;
+            width: 40px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            
+        }
